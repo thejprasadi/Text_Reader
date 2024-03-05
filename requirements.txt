@@ -5,6 +5,6 @@ langchain
 langchain_openai
 langchain_core
 tiktoken
-sqlite3
+sqlite3==3.7.5
 
 
