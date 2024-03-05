@@ -1,0 +1,9 @@
+
+openai
+streamlit
+langchain
+langchain_openai
+chromadb
+langchain_core
+
+
