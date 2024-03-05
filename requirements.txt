@@ -3,7 +3,6 @@ openai
 streamlit
 langchain
 langchain_openai
-Chroma
 langchain_core
 tiktoken
 sqlite3
