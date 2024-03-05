@@ -11,6 +11,7 @@ from langchain.vectorstores import Chroma
 from langchain_openai import ChatOpenAI
 import os
 import openai
+import sqlite3
 
 
 os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"]
