@@ -12,7 +12,7 @@ from langchain.indexes import VectorstoreIndexCreator
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 #from langchain.vectorstores import Chroma
-#from langchain_community.vectorstores import Chroma
+from langchain_community.vectorstores import Chroma
 from langchain_openai import ChatOpenAI
 import os
 import openai
