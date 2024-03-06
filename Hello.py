@@ -1,3 +1,7 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 import streamlit as st
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.schema import StrOutputParser
@@ -11,11 +15,9 @@ from langchain.vectorstores import Chroma
 from langchain_openai import ChatOpenAI
 import os
 import openai
-import sqlite3
+#import sqlite3
 
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 
 
 
