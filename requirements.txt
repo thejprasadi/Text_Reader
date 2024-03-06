@@ -5,7 +5,8 @@ langchain
 langchain_openai
 langchain_core
 tiktoken
-pysqlite3-binary
+sqlite3==3.43.1
+chromadb==0.3.29
 
 
 
