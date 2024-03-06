@@ -15,7 +15,7 @@ from langchain.vectorstores import Chroma
 from langchain_openai import ChatOpenAI
 import os
 import openai
-#import sqlite3
+import sqlite3
 
 
 
