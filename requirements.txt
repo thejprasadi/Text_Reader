@@ -5,8 +5,7 @@ langchain
 langchain_openai
 langchain_core
 tiktoken
-pysqlite3-binary
-pysqlite3
+pysqlite3-binary 
 
 
 
