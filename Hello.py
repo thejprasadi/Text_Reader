@@ -11,7 +11,7 @@ from langchain.vectorstores import Chroma
 from langchain_openai import ChatOpenAI
 import os
 import openai
-import sqlite3
+
 
 __import__('pysqlite3')
 import sys
